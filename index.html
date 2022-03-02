@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:img" content="img/header-logo.png" />
+    <title>Search-infomation</title>
+    <script src="./js/script.js" defer></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="search-wrapper">
+        <label for="search">Search Users🪄</label>
+        <input type="search" id="search" data-search>
+    </div>
+    <div class="user-cards" data-user-cards-container></div>
+    <template data-user-template>
+        <div class="card">
+            <div class="header" data-header></div>
+            <div class="body" data-body></div>
+        </div>
+    </template>
+    <script src="./js/array.js"></script>
+</body>
+
+</html>
